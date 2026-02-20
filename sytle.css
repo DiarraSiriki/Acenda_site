@@ -47,20 +47,52 @@
     font-size: 2rem;
 }
 .good_morning {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    
      margin-left: 23%;
      width: 55%;
      padding: 30px;
     background-color:#fff;
     border-radius: 20px;
-    margin-top: 45%;
-    box-shadow:none;
+    margin-top: 42%;
+    box-shadow:0px 5px 10px grey;
     border: solid none;
 }
 .index {
-   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.index h1 {
+    margin-right:400px ;
+   font-weight: bold;
+    color: rgb(36, 189, 228);
+    font-size: 50px;
+}
+.index p{
+    margin-right:400px ;
+  
+    color: rgb(11, 12, 12);
+    font-size: 30px;
+}
+.option {
+   display: flex;
+   justify-content: space-between;
+   border: solid 1px gray;
+   border-radius: 60px;
+   padding: 50px;
+
+}
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons i {
+    
+    font-size: 40px;
+    color: gray;
+}
+.pere{
+    font-size: 25px;
 }
 
