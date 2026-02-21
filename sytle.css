@@ -1,3 +1,4 @@
+
 *{
     padding: 0;
     margin: 0;
@@ -6,35 +7,33 @@
     text-decoration: none;
 }
 
-.a-propos{
-    z-index: -1;
-    background-image: url(images/image\ 7.png);
-    background-size:cover ;
-    background-repeat: no-repeat;
-    font-family: sans-serif;
-    height: 100Vh;
-    width: 100vw;
 
-    
+.a-propos {
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('images/image 7.png');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
+
 .nav-list {
-    padding: 1em 0;
+    padding: 2em 0;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    color: rgba(232, 232, 232);
-    margin-right: 100px; ;
-   
-    
+    margin-right: 100px;
 }
 
 .nav-item {
-    margin-right: 3rem;
-    font-size: 600;
+    margin-left: 3rem;
 }
 
 .nav-item a {
+    font-size: 20px;
     font-weight: bold;
     color: rgb(224, 228, 229);
     letter-spacing: 1.5px;
@@ -42,57 +41,146 @@
 
 .nav-item:first-child {
     margin-right: auto;
-    margin-left: 10rem ;
-    font-weight: bold;
+    margin-left: 5rem;
+}
+
+.nav-item .logo {
     font-size: 2rem;
+    color: #fff;
 }
+
+
 .good_morning {
-    
-     margin-left: 23%;
-     width: 55%;
-     padding: 30px;
-    background-color:#fff;
-    border-radius: 20px;
-    margin-top: 42%;
-    box-shadow:0px 5px 10px grey;
-    border: solid none;
+    margin: auto auto 60px auto; 
+    width: 90%;
+    max-width: 1100px;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 20px 20px 40px rgba(0,0,0,0.15);
+
 }
-.index {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
+
 .index h1 {
-    margin-right:400px ;
-   font-weight: bold;
+    font-weight: bold;
     color: rgb(36, 189, 228);
-    font-size: 50px;
+    font-size: 45px;
+    margin-bottom: 10px;
 }
-.index p{
-    margin-right:400px ;
-  
-    color: rgb(11, 12, 12);
-    font-size: 30px;
+
+.index p {
+    color: #555;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
 }
+
+/* BARRE D'OPTIONS */
 .option {
    display: flex;
    justify-content: space-between;
-   border: solid 1px gray;
+   align-items: center;
+   border: 1px solid #eee;
    border-radius: 60px;
-   padding: 50px;
+   padding: 40px 80px;
+   
+}
+
+.icons {
+    display: flex;
+    align-items: center;
 
 }
-.icons {
+
+.icons i {
+    font-size: 50px;
+    color: gray;
+}
+
+.icons div {
+    display: flex;
+    flex-direction: column;
+}
+
+.icons input {
+    border: none;
+    font-size: 10px;
+    color: gray;
+}
+
+.pere {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+
+
+.btn-search {
+    background-color: gray;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.btn-search i {
+    color: white;
+    font-size: 18px;
+}
+
+
+.why-choose-us {
+    margin-top: 20em;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.why-choose-us h2 {
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-bottom: 50px;
+    color: #1a1a1a;
+    text-transform: uppercase;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-box {
+    width: 65px;
+    height: 65px;
+    background-color: #eef9ff;
+    border-radius: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.icons i {
-    
-    font-size: 40px;
-    color: gray;
-}
-.pere{
-    font-size: 25px;
+    margin-bottom: 20px;
 }
 
+.icon-box i {
+    font-size: 28px;
+    color:gray;
+}
+
+.item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.item p {
+    color: #777;
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
