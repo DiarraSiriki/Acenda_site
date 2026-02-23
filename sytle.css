@@ -9,7 +9,7 @@
 
 
 .a-propos {
-    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('images/image 7.png');
+    background-image:url('images/image 7.png');
     background-size: cover;
     background-position: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -87,13 +87,23 @@
 }
 
 .icons {
+    gap: 10px;
     display: flex;
     align-items: center;
+    margin-right: 20px;
 
+}
+.icons .search {
+    margin: auto;
+    height: 50px;
+    width: 50px;
+    border-radius: 20px;
+    color: #eee;
+    background-color: rgb(36, 189, 228);
 }
 
 .icons i {
-    font-size: 50px;
+    font-size: 40px;
     color: gray;
 }
 
@@ -104,7 +114,7 @@
 
 .icons input {
     border: none;
-    font-size: 10px;
+    font-size: 12px;
     color: gray;
 }
 
@@ -162,7 +172,8 @@
 .icon-box {
     width: 65px;
     height: 65px;
-    background-color: #eef9ff;
+    background-color: rgb(196, 235, 244);
+    color: rgb(36, 189, 228);
     border-radius: 15px;
     display: flex;
     justify-content: center;
@@ -171,17 +182,18 @@
 }
 
 .icon-box i {
-    font-size: 28px;
-    color:gray;
+    font-size: 30px;
+    color: rgb(36, 189, 228);
+    
 }
 
 .item h3 {
-    font-size: 1.2rem;
+    font-size: 2rem;
     margin-bottom: 10px;
 }
 
 .item p {
     color: #777;
-    font-size: 0.9rem;
+    font-size: 1.5rem;
     line-height: 1.6;
 }
