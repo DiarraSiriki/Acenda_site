@@ -213,7 +213,7 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    transform: translatey(80px);
+    transform: translatey(50px);
     gap: 100px;
 }
 .our-partners h2 {
@@ -228,4 +228,12 @@
 .all-partners p{
     
 }
+.book-now {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   transform: translatey(200px);
+   flex-direction: ;
+   gap: 20px;
 
+}
