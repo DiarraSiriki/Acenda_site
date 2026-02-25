@@ -225,15 +225,3 @@
     color: #1a1a1a;
     text-transform: uppercase;
 }
-.all-partners p{
-    
-}
-.book-now {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-   transform: translatey(200px);
-   flex-direction: ;
-   gap: 20px;
-
-}
