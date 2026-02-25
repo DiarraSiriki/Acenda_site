@@ -82,7 +82,7 @@
    justify-content: space-between;
    align-items: center;
    border: 1px solid #eee;
-   border-radius: 60px;
+   border-radius: 90px;
    padding: 40px 80px;
    
 }
@@ -225,3 +225,58 @@
     color: #1a1a1a;
     text-transform: uppercase;
 }
+<<<<<<< HEAD
+=======
+
+.all-partners .earthly {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.top-booknoow {
+transform: translatey(100px);
+}
+.top-booknoow h2 {
+    font-size: 3rem;
+    font-weight: 800;
+    
+    justify-content: center;
+    align-items: center;
+    color: #1a1a1a;
+    text-transform: uppercase;
+    
+}
+
+.top-booknoow h2 {
+    display: flex;
+}
+.part1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px; 
+    
+}
+
+.part2{
+    position: relative;
+   display: flex; 
+    justify-content: center;
+    align-items: center;
+   gap: 30px; 
+}
+
+.rating {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  padding: 15px 12px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+>>>>>>> ac367c2 (mercredi soir 25fevrier)
