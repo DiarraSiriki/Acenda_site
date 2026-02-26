@@ -213,11 +213,8 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-<<<<<<< HEAD
     transform: translatey(50px);
-=======
     transform: translatey(0px);
->>>>>>> 4bd94e4 (jeudi nuit)
     gap: 100px;
 }
 
@@ -230,10 +227,7 @@
     color: #1a1a1a;
     text-transform: uppercase;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
+
 .earthly .name {
     display: flex;
     font-size: 1.5em;
@@ -241,7 +235,7 @@
     align-items: center;
     
 }
->>>>>>> 4bd94e4 (jeudi nuit)
+
 
 .all-partners .earthly {
     display: flex;
@@ -326,9 +320,7 @@ transform: translateY(100px);
   font-size: 14px;
 }
 
-<<<<<<< HEAD
->>>>>>> ac367c2 (mercredi soir 25fevrier)
-=======
+
 
 .rio i {
   color: #999;              
@@ -362,4 +354,4 @@ transform: translateY(100px);
   background: #000;
   color: #fff;
 }
->>>>>>> 4bd94e4 (jeudi nuit)
+
