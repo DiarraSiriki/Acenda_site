@@ -213,9 +213,14 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+<<<<<<< HEAD
     transform: translatey(50px);
+=======
+    transform: translatey(0px);
+>>>>>>> 4bd94e4 (jeudi nuit)
     gap: 100px;
 }
+
 .our-partners h2 {
     display: flex;
     justify-content: center;
@@ -226,7 +231,17 @@
     text-transform: uppercase;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+.earthly .name {
+    display: flex;
+    font-size: 1.5em;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+>>>>>>> 4bd94e4 (jeudi nuit)
 
 .all-partners .earthly {
     display: flex;
@@ -235,7 +250,7 @@
     flex-direction: row;
 }
 .top-booknoow {
-transform: translatey(100px);
+transform: translateY(100px);
 }
 .top-booknoow h2 {
     font-size: 3rem;
@@ -245,6 +260,7 @@ transform: translatey(100px);
     align-items: center;
     color: #1a1a1a;
     text-transform: uppercase;
+    margin-bottom: 50px;
     
 }
 
@@ -268,15 +284,82 @@ transform: translatey(100px);
    gap: 30px; 
 }
 
+.rio {
+  position: relative;
+  width: 300px;
+  border-radius: 12px;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  padding-bottom: 15px;
+}
+
+.tof-rio img {
+  width: 100%;
+  display: block;
+  border-radius: 12px;
+}
+
+
 .rating {
   position: absolute;
   top: 15px;
   right: 15px;
   background: rgba(0,0,0,0.6);
   color: #fff;
-  padding: 15px 12px;
+  padding: 12px 15px;
   border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+
+.rio span {
+  display: block;
+  font-weight: 600;
+  margin: 8px 15px 0;
+}
+
+.rio p {
+  margin: 5px 15px 0;
+  color: #777;
   font-size: 14px;
 }
 
+<<<<<<< HEAD
 >>>>>>> ac367c2 (mercredi soir 25fevrier)
+=======
+
+.rio i {
+  color: #999;              
+  margin-right: 6px;
+}
+
+.rio i,
+.rio p {
+  display: inline-block;
+  margin-left: 15px;
+  margin-top: 8px;
+  vertical-align: middle;
+}
+.see-all {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.see-all a {
+  display: inline-block;
+  padding: 15px 35px;
+  border-radius: 30px;
+  background: #fff;
+  text-decoration: none;
+  color: #000;
+  border: 2px solid #ddd;
+  transition: 0.3s;
+}
+
+.see-all a:hover {
+  background: #000;
+  color: #fff;
+}
+>>>>>>> 4bd94e4 (jeudi nuit)
