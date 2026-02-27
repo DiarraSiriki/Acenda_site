@@ -472,5 +472,91 @@ transform: translateY(100px);
    font-size: 20px;
     
 }
+.feature-news {
+  
+    transform: translateY(200px);
+}
+.feature-news h1{
+    font-size: 5em;
+}
+.feature-news {
+     background-color: #f4f7f6;
+}
+
+.all-restaurant {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    padding: 60px 20px;
+    background-color: #f4f7f6;
+}
 
 
+.catalogue {
+    background: #fff;
+    width: 320px;
+    border-radius: 15px;
+    padding: 15px; 
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease;
+}
+
+
+.catalogue img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15); 
+    margin-bottom: 20px;
+}
+
+
+.icons-new {
+    color: #888;
+    font-size: 0.85rem;
+    margin-bottom: 10px;
+}
+
+.icons-new i {
+    color:gray; 
+    margin-right: 5px;
+}
+
+
+.catalogue h3 {
+    font-size: 1.5rem;
+    color: #2c3e50;
+    margin-bottom: 12px;
+}
+
+
+.catalogue p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    flex-grow: 1;
+}
+
+
+.catalogue a {
+    text-decoration: none;
+    color: rgb(106, 190, 224);
+    
+    font-size: 1.2rem;
+   
+    border-bottom: 2px solid transparent;
+    transition: border 0.3s ease;
+    
+}
+
+
+
+
+.catalogue:hover {
+    transform: translateY(-8px);
+}
