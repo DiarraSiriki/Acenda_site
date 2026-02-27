@@ -214,9 +214,12 @@
     align-items: center;
     flex-direction: row;
     transform: translatey(50px);
-    transform: translatey(0px);
+    
     gap: 100px;
+    
 }
+
+
 
 .our-partners h2 {
     display: flex;
@@ -228,7 +231,7 @@
     text-transform: uppercase;
 }
 
-.earthly .name {
+.earthly  {
     display: flex;
     font-size: 1.5em;
     justify-content: space-between;
@@ -354,4 +357,114 @@ transform: translateY(100px);
   background: #000;
   color: #fff;
 }
+/*
+.explore  {
+    position: relative;
+    background-image:url('images/image\ 13.png');
+   background-size: cover;
+    background-position: center;
+    font-family: ' sans-serif';
+    height: 100vh;
+    width: 100%;
+    
+    transform: translateY(150px);
+}
+.explore h1 {
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 5em;
+    color: #fff;
+    margin-left: 30%; 
+    transform: translateY(30%);
+
+}
+    */
+   
+
+.explore {
+    position: relative;
+    height: 100vh;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url("images/image\ 13.png") center/cover no-repeat;
+    color: white;
+    transform: translateY(150px);
+}
+
+/* Overlay sombre */
+.explore::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to right, rgba(0,0,0,0.75), rgba(0,0,0,0.3));
+    z-index: 1;
+}
+
+.explore h1 {
+    position: relative;
+    z-index: 2;
+    font-size: 75px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+
+
+.sous-barre {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-top: 2px solid rgba(255,255,255,0.3);
+    padding-top: 40px;
+}
+
+
+.maldives {
+    max-width: 450px;
+}
+
+.maldives p {
+    font-size: 20px;
+    line-height: 1.7;
+    color: rgba(255,255,255,0.85);
+    margin-bottom: 25px;
+}
+
+
+.see-all a {
+    display: inline-block;
+    padding: 20px 30px;
+    background: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.see-all a:hover {
+    background: #eaeaea;
+}
+
+
+.images {
+    display: flex;
+    gap: 25px;
+}
+
+.images img {
+    width: 190px;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+    transition: transform 0.3s ease;
+}
+
 
